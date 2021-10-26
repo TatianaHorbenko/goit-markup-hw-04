@@ -487,12 +487,7 @@ h3 {
 .fon-icon {
   background-color: #f5f4fa;
 }
-/*.list-bloks::before{
-  content: ;
-}
-.contacts-item::before{
-  content: ;
-  }*/
+
 
 .contact-icon {
   fill: #757575;
@@ -584,6 +579,7 @@ h3 {
 .touch-icon {
   fill: #ffffff;
 }
+
 .clients-item:hover,
 .clients-item:focus {
   background-color: var(--accent-color);

@@ -589,3 +589,6 @@ h3 {
 .snap-all:focus {
   background-color: var(--accent-color);
 }
+.logos-icon{
+  fill:#AFB1B8
+}

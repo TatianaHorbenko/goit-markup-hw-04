@@ -658,8 +658,7 @@ h3 {
   fill: #ffffff;
 }
 
-
-
+/*----*/
 
 .snap-all:hover,
 .snap-all:focus {
@@ -668,7 +667,6 @@ h3 {
 .client-links{
   fill:#AFB1B8
 }
-
 
 .items{
   display: flex

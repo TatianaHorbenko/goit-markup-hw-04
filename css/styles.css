@@ -64,12 +64,13 @@ button {
   list-style: none;
   text-decoration: none;
 }
-/*menu-heder menu-header-color*/
-.header-com:hover,
-.header-com:focus{
 
-}
 .header-mailto {
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
   list-style: none;
   text-decoration: none;
   color: var(--primary-text-color);
@@ -77,6 +78,11 @@ button {
 }
 
 .header-tel {
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
   color: var(--primary-text-color);
   list-style: none;
   text-decoration: none;
@@ -131,27 +137,6 @@ button {
 .header-tel:focus {
   color: var(--accent-color);
 }
-
-
-.items{
-  display: flex
-  ;
-}
-
-/*.menu-header {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--secondary-title-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.menu-header-color {
-  color: var(--primary-text-color);
-}*/
 
 .header-mail:hover,
 .header-mail:focus,
@@ -216,20 +201,28 @@ button {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
+  width: 200px;
+  height: 50px;
+  border: 1px, var(--accent-color);
+  border-radius: 4px;
   display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items:center
+}
 
-  padding-left: 32px;
+ /* padding-left: 32px;
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
+}*/
 .button {
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 .button-centr {
@@ -287,6 +280,7 @@ h3 {
   width: 44px;
   height: 44px;
   margin-right: 10px;
+  
 }
 .social-item:last-child {
   margin-right: 0;
@@ -295,30 +289,23 @@ h3 {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-  border-radius: 50%;
-}
+  }
 
-.social-link:hover,
-.social-link:focus,{
-  fill:var(--second-text-color);
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+  fill:#ffffff;
 }
-
-.social-icon:hover,
-.social-icon:focus
- {
-  fill: #ffffff
-}
-.social-icon{
+.social-icon {
   fill: #AFB1B8
-}
-
+ }
 .social-link {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  background-color:#ffffff;
+  border-radius: 50%;
 }
 
 .main-container {
@@ -486,6 +473,7 @@ h3 {
   padding-top: 6px;
   padding-bottom: 6px;
   border: none;
+  border-radius: 4px;
 }
 .task:hover,
 .task:focus {
@@ -493,7 +481,7 @@ h3 {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+ 
 }
 .snap-all {
   background: #2196f3;
@@ -602,8 +590,8 @@ h3 {
   justify-content: center;
   fill: #afb1b8;
 }
-.logos-icon:hover,
-.logos-icon:focus{
+.client-links:hover .logos-icon,
+.client-links:focus .logos-icon{
   fill:var(--accent-color)
 }
 
